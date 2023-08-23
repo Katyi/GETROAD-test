@@ -1,0 +1,149 @@
+.container {
+  margin-top: 97px;
+  width: calc(450px - 46px);
+  height: 1080px;
+  flex-shrink: 0;
+  background: #FCFCFC;
+  border-radius: 20px 20px 0px 0px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+.part1 {
+  display: flex;
+  flex-direction: column;
+  padding-left: 46px;
+}
+.title {
+  margin-top: 35px;
+  color: #168074;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 100% */
+}
+.description {
+  margin-top: 7px;
+  width: 311px;
+  height: 30px;
+  color: #2B2B2B;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.part2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.registrationInputWrapper1 {
+  margin-top: 37px;
+  display: flex;
+  width: 282px;
+  height: 68px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  /* gap: 11px; */
+  flex-shrink: 0;
+}
+.registrationInputWrapper2 {
+  margin-top: 11px;
+  display: flex;
+  width: 282px;
+  height: 71px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  /* gap: 14px; */
+  flex-shrink: 0;
+}
+.registrationInputWrapper3 {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.registrationInputLabel {
+  color: #3C3C3C;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 19px;
+}
+.registrationInput, .registrationInput1 {
+  margin-top: 11px;
+  width: calc(282px - 30px);
+  height: calc(38px - 10px);
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.18);
+  padding: 5px 15px;
+}
+.registrationInput1 {
+  margin-top: 14px;
+}
+.registrationInput:focus, .registrationInput1:focus {
+  outline: 2px solid #168074;
+}
+.registrationInput:hover, .registrationInput1:hover {
+  outline: 2px solid #168074;
+}
+.MessageText {
+  width: calc(282px - 32px);
+  height: calc(253px - 26px);
+  padding: 16px 13px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.18);
+  color: #4E4E4E;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.MessageText:focus {
+  outline: 2px solid #168074;
+}
+.MessageText:hover {
+  outline: 2px solid #168074;
+}
+.MessageText::placeholder {
+  color: #4E4E4E;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.contactUsButton {
+  margin-top: 37px;
+  width: 282px;
+  height: 38px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #168074;
+  color: #EEE;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 14px;
+}
+.contactUsButton:focus {
+  outline: 3px solid rgba(34, 34, 34, 0.15);
+}
+.icon5 {
+  margin-top: 51px;
+  width: 283px;
+  height: 259.122px;
+  flex-shrink: 0;
+}

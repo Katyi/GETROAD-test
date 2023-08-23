@@ -1,0 +1,112 @@
+.wrapper {
+  height: 100vh;
+  width: 100vw;
+  background: rgba(252, 252, 252, 1);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.container {
+  /* max-width: 1280px; */
+  width: 100vw;
+  height: calc(100vh - 120px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  /* justify-content: center; */
+  overflow:scroll;
+}
+.linksWrapper {
+  margin-top: 31px;
+  margin-bottom: 94px;
+  width: calc(126px + 123px + 165px);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.linkButton1 {
+  color: #3C3C3C;
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  cursor: pointer;
+}
+.linkButton2 {
+  color: #168074;
+  text-align: right;
+  font-family: Ubuntu;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  cursor: pointer;
+}
+.footer {
+  height: 120px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 101px;
+  padding-right: 139px;
+}
+.footerColumn1 {
+  width: calc(56px + 72px + 28px);
+  height: fit-content;
+  margin-top: 51px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footerColumn2 {
+  height: 37.4px;
+  margin-top: 41.29px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.footerColumn3 {
+  margin-top: 39px;
+  width: calc(115px + 40px + 18px);
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.footerTitle1 .footerColumn4 {
+  color: #121212;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal; 
+}
+.footerColumn1 {
+  text-decoration-line: underline;
+}
+.footerTitle2 {
+  color: #393939;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 16px;
+}
+.footerTitle3 {
+  color: #2B2B2B;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19.35484px;
+}
+.icon3 {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}

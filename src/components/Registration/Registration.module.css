@@ -1,0 +1,203 @@
+.container {
+  margin-top: 97px;
+  width: 687px;
+  height: 474px;
+  flex-shrink: 0;
+  background: #FCFCFC;
+  border-radius: 20px 20px 0px 0px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.part {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.icon4 {
+  margin-top: 21px;
+}
+.title {
+  margin-top: 47px;
+  color: #168074;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.registrationInputWrapper, .registrationInputWrapper1 {
+  margin-top: 60px;
+  width: 282px;
+  height: 120px;
+  display: flex;
+  flex-direction: column;
+}
+.registrationInputWrapper1 {
+  align-items: center;
+}
+.registrationInputLabel {
+  color: #3C3C3C;
+  font-family: Open Sans;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.registrationInput, .registrationInput1 {
+  margin-top: 14px;
+  width: calc(282px - 30px);
+  height: calc(38px - 10px);
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.18);
+  padding: 5px 15px;
+}
+.registrationInput1 {
+  border: none;
+  background: transparent;
+}
+.registrationInput:focus {
+  outline: 2px solid #168074;
+}
+.registrationInput1:focus {
+  outline: none;
+}
+.registrationInput:hover {
+  outline: 2px solid #168074;
+}
+.registrationInput1:hover {
+  outline: none;
+}
+
+.description1 {
+  margin-top: 19px;
+  width: 215px;
+  color: #2B2B2B;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.description2 {
+  margin-top: 41px;
+  color: #2B2B2B;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.repeatButtonWrapper {
+  margin-top: 28px; 
+  /* width: 192px; */
+  width: 238px;
+  height: 38px;
+  flex-shrink: 0;
+  display: flex;
+  justify-content: end;
+}
+.repeatButton {
+  color: #3C3C3C;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+.repeatButton:focus {
+  outline: none;
+  font-weight: 700;
+}
+.icon2 {
+  width: 43px;
+  height: 38px;
+}
+
+.registrationButton {
+  margin-top: 88px;
+  width: 282px;
+  height: 38px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #168074;
+  color: #FCFCFC;
+  text-align: center;
+  font-family: Ubuntu;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.registrationButton:focus {
+  outline: 3px solid rgba(34, 34, 34, 0.15);
+}
+.registrationButton:hover {
+  outline: 3px solid rgba(34, 34, 34, 0.15);
+  
+}
+.backButton {
+  margin-top: 20px;
+  width: 66px;
+  height: 19.355px;
+  flex-shrink: 0;
+  color: #3C3C3C;
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border: none;
+}
+.backButton:focus {
+  outline: none;
+  font-weight: 700;
+}
+.timer {
+  margin-top: 11px;
+  color: #4A4A4A;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.pinCode {
+  margin-top: 28px;
+  width: 238px;
+  height: 38px;
+  display: flex;
+  justify-content: space-between;
+}
+.pinCode .pinCodeInput { 
+  border: none; 
+  text-align: center; 
+  width: 38px;
+  height:38px;
+  background-color: #F3F3F3;
+  padding: 0;
+  color: #3C3C3C;
+  font-family: Open Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+}
+.pinCode .pinCodeInput:focus {
+  outline: none;
+} 
+.pinCodeInput::-webkit-outer-spin-button,
+.pinCodeInput::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
